@@ -14,7 +14,7 @@ export const main = handler(async (event, context) => {
     source,
     amount,
     description,
-    currency: "usd"
+    currency: "eur"
   });
   return { status: true };
 });
